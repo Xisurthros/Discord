@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-from secrets import TOKEN
+from secrets import TOKEN, OWNER_ID
 
 print('Bot is running')
 print(discord.__version__)
@@ -25,7 +25,7 @@ async def on_member_join(member):
 
 # This allows a specific user to load and unload different .py files
 def is_it_me(ctx):
-    return ctx.author.id == "OWNER_ID" # Set your discord ID to restrict
+    return ctx.author.id == OWNER_ID
 
 @client.event
 async def on_member_remove(member):
