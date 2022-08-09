@@ -70,7 +70,7 @@
 > ![image](https://user-images.githubusercontent.com/76274780/183727924-cc596bb2-5c3c-4378-b795-04876055e1c1.png) \
 > If you see "Copy" then go and click to copy.
 > 
-> The Token than you just copied is your bots password. It is very important that you keep this token private and do not let anyone else have access to it.
+> The Token that you just copied is your bots password. It is very important that you keep this token private and do not let anyone else have access to it.
 > If someone else gets access to this token they can login as your bot and cause problems to any servers that your bot is in.
 >
 > ![image](https://user-images.githubusercontent.com/76274780/183743145-e28e8ce2-2b92-41c3-93ca-58f612b45120.png) \
