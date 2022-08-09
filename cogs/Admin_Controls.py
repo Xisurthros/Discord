@@ -22,7 +22,7 @@ class Admin(commands.Cog):
 
         except:
             target = await self.bot.fetch_user(user_id)
-            await target.send(f'Ping error.\nGuild Name: {ctx.guild.name} Guild ID: {ctx.guild.id}')
+            await target.send(f'Ping error.\nGuild Name: {ctx.guild.name} Guild ID: {ctx.guild.id}')git 
             await ctx.send(f'Unexpected Error. Try again later\nThe owner has been notified')
 
     @commands.command(aliases=['k'], description='.kick [@user] to kick a user.')
