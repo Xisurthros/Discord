@@ -9,11 +9,13 @@
 ### Important
 > You will need to add your profiles ID to secrets.py before running the bot.
 > Geting your profiles ID.
-> * Open and discord server that you are in. It does not matter which server.
+> * Open any Discord server that you are in. It does not matter which server.
 > * Open the users section and find your profile.
-> * Rightclick your profile and at the bottom of the options you will see "Copy ID".
+> * Right click your profile and at the bottom of the options you will see "Copy ID".
+> * You will need to add this ID to OWNER_ID in secrets.py. (Ex: OWNER_ID = 'Replace with what you just coppied'. Must include the quotations)
 >
-> This is to ensure **only** the owner has access to some custom bot actions and getting a DM from the bot if there are any issues with the bot.
+> ![image](https://user-images.githubusercontent.com/76274780/183743145-e28e8ce2-2b92-41c3-93ca-58f612b45120.png) \
+> This is to ensure only the **owner** has access to some custom bot actions and that they will get a DM from the bot if there are any issues.
 
 ### Requirements
 > Python installed on your system.
@@ -24,21 +26,20 @@
 ### Functions
 > Current bot wake command.
 > * "." without the quotes.
-> * Can be changed in main at client = commands.Bot(command_prefix='.', intents=discord.Intents.all())
+> * Can be changed in main.py at client = commands.Bot(command_prefix='.', intents=discord.Intents.all())
 >
 > Main
 > * [on_ready] - Custom bot status. 
 > * [on_member_join] - Custom welcome message to new memebers. 
 > * [on_member_remove] - Lets the sever know when and who left. 
-> * [load] - Load cog extensions. 
-> * [unload] - Unload cog extensions. 
+> * [un/load] - Un/load cog extensions. 
 >
 > Admin
 > * [ping] - Get bot latency.
 > * [kick] - Kick specified user.
 > * [un/ban] - Un/ban specified user.
 > * [un/mute] - Un/mute specified user.
-> * [banned_list] - Get list of all currenly banned users.
+> * [banned_list] - Get a list of all currenly banned users.
 >
 > Info
 > * [user_info] - Get information about a specified users discord profile. (ID, Bot?, Top Role, Status, Activity, Created On, Joined On, Boosted)
@@ -49,17 +50,17 @@
 
 ### Creating a Discord Application | Getting your Discord Bot Token
 > You will first need to be logged into <a href="https://discord.com/" target="_blank">Discord</a>.\
-> Once logged in navigate the the <a href="https://discord.com/developers/applications" target="_blank">Application Page</a>.
+> Once logged in navigate the <a href="https://discord.com/developers/applications" target="_blank">Application Page</a>.
 >
 > ![image](https://im2.ezgif.com/tmp/ezgif-2-f06fc62aa0.gif) \
 > Here you will click the "New Application" button at the top right of the page.
 >
 > ![image](https://user-images.githubusercontent.com/76274780/183726302-42c622f2-1569-4bdd-841b-c4b476ca1ca5.png) \
-> Give your bot a name and create.
+> Give your bot a name and click create.
 >
 > ![image](https://im2.ezgif.com/tmp/ezgif-2-0dc3a8de0e.gif) \
 > ![image](https://user-images.githubusercontent.com/76274780/183726386-cecb1bc6-c5c3-4818-bd52-d11a06623224.png) \
-> Go to the "Bot" section. Once here you will click "Add Bot" button.\
+> Go to the "Bot" section. Once here you will click the "Add Bot" button.\
 > Then an additional box will come up where you will need to click "Yes" to confirm the creation of your bot.
 >
 > ![image](https://user-images.githubusercontent.com/76274780/183727068-cf24d5cd-7595-464e-a436-cecc58c6c383.png) \
@@ -77,7 +78,7 @@
 > Now that you have your bots token. Go into "secrets.py" and replace 'TOKEN' with your token. Keep the quotations.
 >
 > ![image](https://im4.ezgif.com/tmp/ezgif-4-b2c1cae8f1.gif)\
-> While you are still on the same page where you got your token. You will find an option "REQUIRES OAUTH2 CODE GRANT" and turn this on. (This will help with Admin Permissions later on.) \
+> While you are still on the same page as where you got your token. You will find an option "REQUIRES OAUTH2 CODE GRANT" and turn this on. (This will help with Admin Permissions later on.) \
 > Make sure you save any changes you make during this process.
 >
 > ![image](https://im.ezgif.com/tmp/ezgif-1-14ab67415f.gif) \
@@ -87,12 +88,12 @@
 >
 > Finally you will now need to invite the bot to your server. \
 > Head to OAuth2 under settings. And "URL Generator". \
-> Under the "scopes" portion select "Bot". \
+> Under the "scopes" section select "Bot". \
 > Another section called "Bot Permissions" will be created below the "scopes" section.\
 > Here you will add the permission you wish your bot to have. \
-> Since all of my bots are create and hosted by my in my own servers I always select "Administrator". \
+> Since all of my bots are create and hosted by myself and are run in my own servers I always select "Administrator". \
 > **!!! Be careful giving permission to bots in your server as they can cause damanage if the wrong bot/person joins your sever !!!** \
-> Finally under the "Bot Permissions" section you will find a URL. Copy this, paste it in your browser and it will invite the bot to your servers.
+> Finally under the "Bot Permissions" section you will find a URL. Copy this, paste it in your browser and it will bring up a page letting you invite the bot to your different servers.
 
 ### Documentation
 > https://discord.com/developers/docs/intro
