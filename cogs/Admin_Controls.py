@@ -1,12 +1,13 @@
 import discord
 from discord.ext import commands
+from secrets import OWNER_ID
 
 class Admin(commands.Cog):
     Admin = 'Admin Controls'
 
     def __init__(self, bot):
         self.bot = bot
-        self.OWNER_ID = 'OWNER_ID'
+        self.OWNER_ID = OWNER_ID
         self.mute = 'MUTED_ROLE_ID'
 
     @commands.Cog.listener()

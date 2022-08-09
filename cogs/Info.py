@@ -3,12 +3,13 @@ from discord.ext import commands
 from discord import Embed, Member
 from typing import Optional
 from datetime import datetime
+from secrets import OWNER_ID
 
 class Info(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
-        self.OWNER_ID = 'OWNER_ID'
+        self.OWNER_ID = OWNER_ID
 
     @commands.Cog.listener()
     async def on_ready(self):

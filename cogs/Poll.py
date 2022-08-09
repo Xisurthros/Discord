@@ -3,6 +3,7 @@ from discord.ext import commands
 from discord import embeds
 from discord.ext.commands import has_permissions
 from datetime import datetime, timedelta
+from secrets import OWNER_ID
 
 numbers = ("1️⃣", "2⃣", "3⃣", "4⃣", "5⃣",
            "6⃣", "7⃣", "8⃣", "9⃣", "🔟")
@@ -14,7 +15,7 @@ class Example(commands.Cog):
         self.client = client
         self.reaction_message = ''
         self.polls = []
-        self.OWNER_ID = 'OWNER_ID'
+        self.OWNER_ID = OWNER_ID
 
     # Events
     @commands.Cog.listener()
