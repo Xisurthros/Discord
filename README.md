@@ -98,9 +98,6 @@
 ### Documentation
 > https://discord.com/developers/docs/intro
 
-### Future Plans
-> Custom help messages for each cog extension.
-
 ### Contact
 > If you have any issues/concerns/ideas feel free to shoot me a message over on Discord.\
 > Username - jacohobb#2174 (Subject to change from time to time so if this doesn't work use the link below) \
