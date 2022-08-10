@@ -52,13 +52,13 @@
 > You will first need to be logged into <a href="https://discord.com/" target="_blank">Discord</a>.\
 > Once logged in navigate the <a href="https://discord.com/developers/applications" target="_blank">Application Page</a>.
 >
-> ![image](https://im2.ezgif.com/tmp/ezgif-2-f06fc62aa0.gif) \
+> [![image](https://im2.ezgif.com/tmp/ezgif-2-f06fc62aa0.gif)](https://media1.giphy.com/media/WafWQYFim4VHOBKixh/giphy.gif?cid=790b761127444bfeae3d7c499ee4acd5836d12cd91ff05ad&rid=giphy.gif&ct=g) \
 > Here you will click the "New Application" button at the top right of the page.
 >
 > ![image](https://user-images.githubusercontent.com/76274780/183726302-42c622f2-1569-4bdd-841b-c4b476ca1ca5.png) \
 > Give your bot a name and click create.
 >
-> ![image](https://im2.ezgif.com/tmp/ezgif-2-0dc3a8de0e.gif) \
+> [![image](https://im2.ezgif.com/tmp/ezgif-2-0dc3a8de0e.gif)](https://media0.giphy.com/media/A5Mu7C99pqhrINj5h1/giphy.gif?cid=790b761161baa864159eec64bb701042657b5a8527630b19&rid=giphy.gif&ct=g) \
 > ![image](https://user-images.githubusercontent.com/76274780/183726386-cecb1bc6-c5c3-4818-bd52-d11a06623224.png) \
 > Go to the "Bot" section. Once here you will click the "Add Bot" button.\
 > Then an additional box will come up where you will need to click "Yes" to confirm the creation of your bot.
@@ -77,11 +77,11 @@
 > ![image](https://user-images.githubusercontent.com/76274780/183743145-e28e8ce2-2b92-41c3-93ca-58f612b45120.png) \
 > Now that you have your bots token. Go into "secrets.py" and replace 'TOKEN' with your token. Keep the quotations.
 >
-> ![image](https://im4.ezgif.com/tmp/ezgif-4-b2c1cae8f1.gif)\
+> [![image](https://im4.ezgif.com/tmp/ezgif-4-b2c1cae8f1.gif)](https://media3.giphy.com/media/DxVQemUsIRpktbe3IW/giphy.gif?cid=790b761146e6253fae5bf9cb29548af30e25747475082eed&rid=giphy.gif&ct=g)\
 > While you are still on the same page as where you got your token. You will find an option "REQUIRES OAUTH2 CODE GRANT" and turn this on. (This will help with Admin Permissions later on.) \
 > Make sure you save any changes you make during this process.
 >
-> ![image](https://im.ezgif.com/tmp/ezgif-1-14ab67415f.gif) \
+> [![image](https://im.ezgif.com/tmp/ezgif-1-14ab67415f.gif)](https://media0.giphy.com/media/YUHkl9XjJUzValQIzy/giphy.gif?cid=790b7611ebfb096471d8ca6f38f3940e3238c8a22c1b7736&rid=giphy.gif&ct=g) \
 > ![image](https://user-images.githubusercontent.com/76274780/183733859-df865bf2-4560-45ae-8f20-7b328c581f4a.png) \
 > ![image](https://user-images.githubusercontent.com/76274780/183733917-006178c4-eb9b-45ef-8641-49083cedebf1.png) \
 > ![image](https://user-images.githubusercontent.com/76274780/183733939-6f7b6459-d623-46ba-b474-74930666b48f.png) 
