@@ -97,8 +97,3 @@
 
 ### Documentation
 > https://discord.com/developers/docs/intro
-
-### Contact
-> If you have any issues/concerns/ideas feel free to shoot me a message over on Discord.\
-> Username - jacohobb#2174 (Subject to change from time to time so if this doesn't work use the link below) \
-> Profile URL  https://discord.com/users/198667876138221568
